@@ -1,0 +1,72 @@
+/* #region Fonts */
+/* #region Inter */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url($font + "Inter/Inter-Regular.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-Regular.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url($font + "Inter/Inter-Italic.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-Italic.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url($font + "Inter/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url($font + "Inter/Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-SemiBoldItalic.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url($font + "Inter/Inter-Bold.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-Bold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url($font + "Inter/Inter-BoldItalic.woff2?v=3.19") format("woff2"),
+    url($font + "Inter/Inter-BoldItalic.woff?v=3.19") format("woff");
+}
+/* #endregion */
+
+/* #region InterVar */
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url($font + "InterVar/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url($font + "InterVar/Inter-italic.var.woff2?v=3.19") format("woff2");
+}
+/* #endregion */
+/* #endregion */
+

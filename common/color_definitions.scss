@@ -1,0 +1,16 @@
+/* #region Color-Definitions */
+/* #region Imports */
+@import "common/foundation/variables";
+@import "variables";
+/* #endregion */
+
+/* #region Dark-Light-Choose */
+$body-bg-color: dark-light-choose($body-bg, $body-bg-dark);
+/* #endregion */
+
+/* #region ROOT */
+:root {
+  --body_background-color: #{$body-bg-color};
+}
+/* #endregion */
+/* #endregion */
